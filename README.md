@@ -1,10 +1,41 @@
-# iOS OpenClaw Wrapper
+# EasyClaw - iOS OpenClaw Wrapper 📱⚡
 
-A native iOS app that runs OpenClaw agents directly on-device — no VPS, no external hardware, minimal setup friction.
+**Run your AI agent directly on your iPhone. No VPS. No server. Just chat.**
 
-## Vision
+A native iOS app that brings OpenClaw's powerful agent capabilities to your pocket. Chat with AI, search the web, store memories—all running locally on your device.
 
-One-tap deployment: Install → Open → Chat with your personal agent. That's it.
+## 🎯 Vision
+
+**One-tap deployment**: Download → Open → Chat → Done.
+
+No complex setup, no servers to maintain, no technical expertise required. Your personal AI assistant, always in your pocket.
+
+## ✨ Features (MVP)
+
+- 💬 **Natural Chat Interface** - Clean, responsive SwiftUI chat
+- 🧠 **Persistent Memory** - Remembers context across conversations
+- 🔍 **Web Search** - Brave Search integration for real-time info
+- 🌐 **Web Scraping** - Fetch and read any URL
+- 📊 **Multiple Models** - Claude, GPT-4o, Gemini, and more via OpenRouter
+- 🔐 **Secure Storage** - API keys in iOS Keychain
+- 📱 **Native iOS** - Fast, battery-efficient, works offline (with limitations)
+- 🎨 **Beautiful UI** - Modern iOS design with dark mode support
+
+## 🚀 Quick Start
+
+```bash
+git clone https://github.com/themalagasywizard/EasyClaw.git
+cd EasyClaw
+open OpenClaw/OpenClaw.xcodeproj
+```
+
+**Requirements**: Xcode 15+, iOS 17+, OpenRouter API key
+
+See [GETTING_STARTED.md](GETTING_STARTED.md) for detailed setup instructions.
+
+## 📸 Screenshots
+
+_Coming soon: Chat interface, Settings, Memory logs_
 
 ## Architecture Overview
 
